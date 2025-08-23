@@ -49,7 +49,7 @@ const App = () => {
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <div className="flex h-screen bg-background">
+        <div className="flex h-screen bg-gradient-soft">
           <Sidebar currentPage={currentPage} onPageChange={setCurrentPage} />
           <main className="flex-1 overflow-auto">
             {renderCurrentPage()}
